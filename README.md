@@ -19,8 +19,8 @@
 - 🌱 Currently learning: **ML pipelines, REST APIs, model deployment**
 - 👀 Interests: **Machine Learning, Backend systems, API design, data-driven apps**
 - 💞️ Open to collaborating on **ML + backend projects**
-- 📍 Based in **Chandigarh, India**
-- 📫 Reach me at: *[add your email or LinkedIn]*
+- 📍 Based in LPU , India**
+- 📫 Reach me at: *https://www.linkedin.com/in/suraj004*
 
 ---
 
