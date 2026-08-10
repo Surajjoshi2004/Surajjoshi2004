@@ -1,0 +1,43 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    </style>
+  </defs>
+
+  <!-- window -->
+  <rect x="1" y="1" width="898" height="278" rx="12" fill="#0a0e14" stroke="#1b212c" stroke-width="1.5"/>
+
+  <!-- title bar -->
+  <path d="M1 13 A12 12 0 0 1 13 1 H887 A12 12 0 0 1 899 13 V38 H1 Z" fill="#10151d"/>
+  <line x1="1" y1="38" x2="899" y2="38" stroke="#1b212c" stroke-width="1"/>
+
+  <!-- traffic lights -->
+  <circle cx="26" cy="19.5" r="6" fill="#ff5f57"/>
+  <circle cx="48" cy="19.5" r="6" fill="#ffbd2e"/>
+  <circle cx="70" cy="19.5" r="6" fill="#28c840"/>
+
+  <text x="450" y="24" text-anchor="middle" class="mono" font-size="13" fill="#6e7681">guest@suraj-joshi:~</text>
+
+  <!-- body -->
+  <g class="mono" font-size="16">
+    <text x="28" y="76">
+      <tspan fill="#7ee787">guest@suraj-joshi</tspan><tspan fill="#3d4451">:</tspan><tspan fill="#6e9fff">~</tspan><tspan fill="#c9d1d9">$ whoami</tspan>
+    </text>
+    <text x="28" y="106" fill="#c9d1d9">Suraj Joshi — ML Engineer &amp; Backend Developer</text>
+
+    <text x="28" y="146">
+      <tspan fill="#7ee787">guest@suraj-joshi</tspan><tspan fill="#3d4451">:</tspan><tspan fill="#6e9fff">~</tspan><tspan fill="#c9d1d9">$ cat mission.txt</tspan>
+    </text>
+    <text x="28" y="176" fill="#c9d1d9">Training models by day, shipping APIs by night.</text>
+
+    <text x="28" y="216">
+      <tspan fill="#7ee787">guest@suraj-joshi</tspan><tspan fill="#3d4451">:</tspan><tspan fill="#6e9fff">~</tspan><tspan fill="#c9d1d9">$ echo $STATUS</tspan>
+    </text>
+    <text x="28" y="246" fill="#f0b72f">[ONLINE] open to ML + backend collaborations</text>
+
+    <rect x="28" y="254" width="10" height="18" fill="#7ee787">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
